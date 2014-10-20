@@ -32,7 +32,7 @@ from openerp.addons.account_statement_base_import.parser.file_parser import (
 )
 
 TD_CANADA_CSV_FIELDS = [
-    "date", "label", "debit", "credit", "balance",
+    "date", "label", "credit", "debit", "balance",
 ]
 TD_DATE_FORMAT = '%m/%d/%Y'
 
